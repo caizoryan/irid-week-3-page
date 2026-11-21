@@ -128,7 +128,7 @@ section > h1::before { content: '# '; }
 .slide .image-row { display: flex; flex-wrap: wrap; gap: .75em; align-items: flex-start; margin: 1em 0; }
 .slide .image-row img { flex: 1 1 0; min-width: 0; }
 .slide li::marker { content: '⊙  '; font-size: .8em; }
-.slide blockquote { background: var(--col); color: var(--bg); padding: .25em; margin: 1.55em 0 0; }
+.slide blockquote { background: var(--col); color: var(--bg); padding: .25em 1.5em; margin: 1.55em 0 0; }
 .slide a { color: inherit; text-decoration-thickness: 1px; text-underline-offset: .25em; }
 .slide a:hover { background: var(--col); color: var(--bg); }
 .slide img, .slide video { display: block; max-width: 100%; height: auto; }
